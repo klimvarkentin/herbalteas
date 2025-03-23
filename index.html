@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herbal Tea</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400..700&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <header class="header header-main">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="#" class="logo">
+                        <img src="resources/logo.png" alt="Логотип сайта" class="logo__img">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item"><a href="index.html" class="menu__list-link">Главная</a></li>
+                            <li class="menu__list-item"><a href="about-us.html" class="menu__list-link">О компании</a></li>
+                            <li class="menu__list-item"><a href="feedback.html" class="menu__list-link">Отзывы</a></li>
+                            <li class="menu__list-item"><a href="catalogue.html" class="menu__list-link">Каталог</a></li>
+                            <li class="menu__list-item"><a href="delivery.html" class="menu__list-link">Доставка и оплата</a></li>
+                            <li class="menu__list-item"><a href="contacts.html" class="menu__list-link">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+
+            <section class="upper">
+                <div class="container">
+                    <h1 class="upper__title">Магазин травяных чаёв и настоек</h1>
+                    <p class="upper__text">Высокое качество. Быстрая доставка. Акции и скидки до 90%.</p>
+                    <ul class="upper__list">
+                        <li class="upper__list-item">Неповторимый вкус</li>
+                        <li class="upper__list-item">Постоянное обновление ассортимента из различных стран всего мира</li>
+                        <li class="upper__list-item">Высокое качество трав</li>
+                        <li class="upper__list-item">Приятные цены</li>
+                    </ul>
+                    <div class="upper__btn">
+                        <a href="catalogue.html" class="upper__btn-link">
+                            <p class="upper__btn-link-text">Перейти в каталог</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <div class="slider">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-image: url('resources/slide1.webp');"></div>
+                        <div class="swiper-slide" style="background-image: url('resources/slide2.webp');"></div>
+                        <div class="swiper-slide" style="background-image: url('resources/slide3.jpg');"></div>
+                        <div class="swiper-slide" style="background-image: url('resources/slide4.webp');"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <section class="teas">
+                <div class="container">
+                    <h2 id="popular" class="section-title">Популярные чаи и настойки</h2>
+                    <div class="teas__popular">
+                        <ul class="teas__goods">
+                            <li class="side-menu teas__item">
+                                <p class="teas__item-title"><a href="#popular" class="teas__popular-links-item">Популярное</a></p>
+                                <p class="teas__item-title"><a href="#herbalTeas" class="teas__popular-links-item">Травяные чаи</a></p>
+                                <p class="teas__item-title"><a href="#medicinalTeas" class="teas__popular-links-item">Лечебные чаи</a></p>
+                                <p class="teas__item-title"><a href="#tinctures" class="teas__popular-links-item">Настойки</a></p>
+                            </li>
+                            <li class="teas__item">
+                                <img src="resources/jasmine-tea.jpeg" class="teas__item-img">
+                                <div class="teas__item-description">
+                                    <p class="teas__item-description-title">Чай с жасмином</p>
+                                    <p class="teas__item-description-price">200 руб.</p>
+                                    <div class="teas__item-description-link">
+                                        <a href="#">Заказать</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="teas__item">
+                                <img src="resources/5herbs.jpg" class="teas__item-img">
+                                <div class="teas__item-description">
+                                    <p class="teas__item-description-title">Настойка 5 луговых трав</p>
+                                    <p class="teas__item-description-price">350 руб.</p>
+                                    <div class="teas__item-description-link">
+                                        <a href="#">Заказать</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="teas__item">
+                                <img src="resources/bergamot.jpeg" class="teas__item-img">
+                                <div class="teas__item-description">
+                                    <p class="teas__item-description-title">Чай с бергамотом</p>
+                                    <p class="teas__item-description-price">200 руб.</p>
+                                    <div class="teas__item-description-link">
+                                        <a href="#">Заказать</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <h3 id="herbalTeas" class="teas__title">Травяные чаи</h3>
+                    <div class="teas__popular">
+                        <ul class="teas__goods">
+                            <li class="teas__item">
+                                <img src="resources/jasmine-tea.jpeg" class="teas__item-img">
+                                <div class="teas__item-description">
+                                    <p class="teas__item-description-title">Чай с жасмином</p>
+                                    <p class="teas__item-description-price">200 руб.</p>
+                                    <div class="teas__item-description-link">
+                                        <a href="#">Заказать</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="teas__item">
+                                <img src="resources/karkade.jpg" class="teas__item-img">
+                                <div class="teas__item-description">
+                                    <p class="teas__item-description-title">Каркаде</p>
+                                    <p class="teas__item-description-price">220 руб.</p>
+                                    <div class="teas__item-description-link">
+                                        <a href="#">Заказать</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="teas__item">
+                                <img src="resources/bergamot.jpeg" class="teas__item-img">
+                                <div class="teas__item-description">
+                                    <p class="teas__item-description-title">Чай с бергамотом</p>
+                                    <p class="teas__item-description-price">200 руб.</p>
+                                    <div class="teas__item-description-link">
+                                        <a href="#">Заказать</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="teas__item">
+                                <img src="resources/teguanyin.jpg" class="teas__item-img">
+                                <div class="teas__item-description">
+                                    <p class="teas__item-description-title">Чай улун те гуань инь</p>
+                                    <p class="teas__item-description-price">260 руб.</p>
+                                    <div class="teas__item-description-link">
+                                        <a href="#">Заказать</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <h3 id="medicinalTeas" class="teas__title">Лечебные чаи</h3>
+                    <div class="teas__popular">
+                        <ul class="teas__goods">
+                            <li class="teas__item">
+                                <img src="resources/nettles.jpg" class="teas__item-img">
+                                <div class="teas__item-description">
+                                    <p class="teas__item-description-title">Чай с крапивой</p>
+                                    <p class="teas__item-description-price">240 руб.</p>
+                                    <div class="teas__item-description-link">
+                                        <a href="#">Заказать</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="teas__item">
+                                <img src="resources/sage.jpg" class="teas__item-img">
+                                <div class="teas__item-description">
+                                    <p class="teas__item-description-title">Чай с шалфеем</p>
+                                    <p class="teas__item-description-price">220 руб.</p>
+                                    <div class="teas__item-description-link">
+                                        <a href="#">Заказать</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="teas__item">
+                                <img src="resources/rosehip.jpg" class="teas__item-img">
+                                <div class="teas__item-description">
+                                    <p class="teas__item-description-title">Чай с шиповником</p>
+                                    <p class="teas__item-description-price">210 руб.</p>
+                                    <div class="teas__item-description-link">
+                                        <a href="#">Заказать</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="teas__item">
+                                <img src="resources/camomile.jpg" class="teas__item-img">
+                                <div class="teas__item-description">
+                                    <p class="teas__item-description-title">Чай с ромашкой</p>
+                                    <p class="teas__item-description-price">230 руб.</p>
+                                    <div class="teas__item-description-link">
+                                        <a href="#">Заказать</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <h3 id="tinctures" class="teas__title">Настойки</h3>
+                    <div class="teas__popular">
+                        <ul class="teas__goods">
+                            <li class="teas__item">
+                                <img src="resources/5herbs.jpg" class="teas__item-img">
+                                <div class="teas__item-description">
+                                    <p class="teas__item-description-title">Настойка 5 луговых трав</p>
+                                    <p class="teas__item-description-price">350 руб.</p>
+                                    <div class="teas__item-description-link">
+                                        <a href="#">Заказать</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="teas__item">
+                                <img src="resources/walnut.jpg" class="teas__item-img">
+                                <div class="teas__item-description">
+                                    <p class="teas__item-description-title">Настойка из грецкого ореха</p>
+                                    <p class="teas__item-description-price">300 руб.</p>
+                                    <div class="teas__item-description-link">
+                                        <a href="#">Заказать</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="teas__item">
+                                <img src="resources/lapchatka.jpg" class="teas__item-img">
+                                <div class="teas__item-description">
+                                    <p class="teas__item-description-title">Настойка лапчатка белая</p>
+                                    <p class="teas__item-description-price">280 руб.</p>
+                                    <div class="teas__item-description-link">
+                                        <a href="#">Заказать</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="teas__item">
+                                <img src="resources/propolis.jpg" class="teas__item-img">
+                                <div class="teas__item-description">
+                                    <p class="teas__item-description-title">Настойка прополиса пчелиного</p>
+                                    <p class="teas__item-description-price">250 руб.</p>
+                                    <div class="teas__item-description-link">
+                                        <a href="#">Заказать</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+            </section>
+
+            <section class="delivery">
+                <div class="container">
+                    <h2 class="section-title">Доставка и оплата</h2>
+                    <div class="delivery__wrapper">
+                        <img class="flex-img" src="resources/delivery.jpg" alt="Доставка">
+                        <div class="delivery__wrapper-text flex-text">
+                            <h4>Доставка</h4>
+                            <p class="delivery__wrapper-text-description">
+                                Мы доставляем наши травяные чаи и настойки по всей стране удобными способами:<br>
+                                    • Курьерская доставка – прямо до вашей двери.<br>
+                                    • Почтовая доставка – в ближайшее отделение почты.<br>
+                                    • Сроки доставки – от 3 до 5 рабочих дней, в зависимости от региона.<br>
+                                    • Бесплатная доставка – при заказе от 1500.<br>
+                                После отправки заказа вы получите трек-номер для отслеживания.
+                            </p>
+                        </div>
+                        <div class="delivery__wrapper-text flex-text">
+                            <h4>Оплата</h4>
+                            <p class="delivery__wrapper-text-description">
+                                Мы предлагаем удобные способы оплаты:<br> 
+                                    • Банковские карты Visa, MasterCard, Мир.<br> 
+                                    • Онлайн-оплата через безопасные платежные системы.<br>  
+                                    • Оплата при получении (наличными или картой, если доступно в вашем регионе).<br> 
+                                    Все платежи защищены, а подтверждение заказа приходит на вашу электронную почту.
+                            </p>
+                        </div>
+                        <img class="flex-img" src="resources/payment.jpg" alt="Оплата">
+                    </div>
+                </div>
+            </section>
+
+            <section class="section about-us">
+                <div class="container">
+                    <h2 class="section-title">О нашей компании</h2>
+                    <div class="about-us__wrapper">
+                        <img class="flex-img" src="resources/about-us.jpg" alt="О нашей компании">
+                        <p class="about-us__text">Добро пожаловать в Herbal Tea — мир натуральных травяных чаев и целебных настоек, созданных самой природой.<br><br> 
+                            Мы верим в силу растений и бережно сохраняем их полезные свойства, чтобы помочь вам заботиться о здоровье естественным способом.<br>  
+                            Наши рецептуры основаны на многовековых традициях фитотерапии и тщательно отобранных ингредиентах.<br><br>  
+                            Все травы собираются в экологически чистых регионах и проходят строгий контроль качества, чтобы каждая чашка нашего чая приносила вам гармонию и благополучие. Мы стремимся сделать заботу о здоровье доступной и приятной.<br><br>  
+                            В ассортименте Herbal Tea — чаи для укрепления иммунитета, улучшения пищеварения, расслабления и восстановления сил, а также натуральные настойки, помогающие организму справляться с повседневными нагрузками.<br><br> 
+                            Herbal Tea родилась из любви к природе и традиционному траволечению. Начав с небольших сборов для родных, мы выросли в бренд, объединяющий натуральные чаи и настойки, созданные с заботой о здоровье.<br><br> 
+                            Сохраняя традиции, мы предлагаем только лучшие травяные составы для вашего благополучия.<br> 
+                            Присоединяйтесь к нам, чтобы открыть для себя мир натурального оздоровления и насладиться настоящими дарами природы!</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="questions">
+                <div class="container">
+                    <h2 class="section-title questions__title">Остались вопросы?</h2>
+                    <p class="quesions__text">Задайте их нам!</p>
+                    <div class="questions__form">
+                        <p class="questions__form-title">Наш специалист свяжется с вами, чтобы помочь с вашим вопросом</p>
+                        <form>
+                            <label for="name">Введите ФИО</label>
+                            <input id="name" name="name" type="text" required placeholder="Иванов Иван Иванович">
+                            <label for="email">Введите email</label>
+                            <input id="email" name="email" type="email" required placeholder="ivanov12@mail.ru">
+                            <label for="tel">Введите номер телефона</label>
+                            <input id="tel" name="tel" type="tel" required placeholder="+7-999-012-34-56">
+                        </form>
+                        <button class="quesions-form__btn popup__btn">Оставить заявку</button>
+                    </div>
+                </div>
+            </section>
+
+            <div class="popup">
+                <div class="popup__content">
+                    <div class="popup__close-btn"></div>
+                    <p class="popup__heading">Спасибо за заявку!</p>
+                    <p class="popup__text">Заявка отправлена. Мы свяжемся с вами в ближайшее время.</p>
+                </div>
+            </div>
+
+            <section class="feedback">
+                <ul class="container">
+                    <h2 class="section-title">Отзывы наших клиентов</h2>
+                    <ul class="feedback__wrapper">
+                        <li class="feedback__item">
+                            <img class="feedback__img" src="resources/client1.jpg" alt="Фото клиента">
+                            <div class="feedback__description">
+                                <p class="feedback__text">Травяные чаи и настойки вошли в нашу жизнь и стали секретом здоровья! Чай с бергамотом помог взбодриться, а каркаде - утолить жажду. Настойка 5 трав помогла пережить осенние простуды. Теперь у нас коллекция травяных средств! Чувствуем себя здоровыми, бодрыми и в гармонии. Рекомендуем!</p>
+                                <p class="feedback__name">Андрей и Екатерина, г. Челябинск</p>
+                            </div>
+                        </li>
+                        <li class="feedback__item">
+                            <img class="feedback__img" src="resources/client2.jpg" alt="Фото клиента">
+                            <div class="feedback__description">
+                                <p class="feedback__text">Жасминовый чай - мой ежедневный ритуал! Мягкий и ароматный, идеально для расслабления. Зимой выручила настойка прополиса! Горло не болело, хотя обычно мучаюсь. Теперь травяные помощники всегда под рукой. Чувствую себя гораздо лучше, энергичнее. Советую всем!</p>
+                                <p class="feedback__name">Максим, г. Томск</p>
+                            </div>
+                        </li>
+                        <li class="feedback__item">
+                            <img class="feedback__img" src="resources/client3.png" alt="Фото клиента">
+                            <div class="feedback__description">
+                                <p class="feedback__text">Улун Те Гуань Инь - моё открытие года! Вкус невероятный, и энергии прибавляет. Осенью поддержала настойка из грецкого ореха - иммунитет укрепила, чувствую себя намного бодрее. Травяные помощники - мой секрет хорошего самочувствия. Рекомендую!</p>
+                                <p class="feedback__name">Валерия, г. Екатеринбург</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="contacts">
+                <div class="container">
+                    <h2 class="section-title">Контакты</h2>
+                    <div class="contacts__wrapper">
+                        <div class="contacts__description">
+                            <h6 class="contacts__heading">Как нас найти</h6>
+                            <p class="contacts__text">Москва, ул. Советская, 47А<br>
+                                E-mail: herbaltea@yandex.ru<br>
+                                Телефон: +7 800 300 06 00 - отдел продаж<br>
+                                Телефон: +7 800 340 06 00 - отдел сбыта<br>
+                                Контактное лицо: Иванов И.И.<br>
+                            </p>
+                            <p class="contacts__social">Присоединяйтесь к нам в социальных сетях!</p>
+                            <ul class="footer__contacts-icons contacts__icons">
+                                <li class="footer-contacts-icons-item">
+                                    <a href="#" class="footer-logo">
+                                        <img src="resources/vk.png" alt="Логотип Вконтакте" class="footer-logo-img">
+                                    </a>
+                                </li>
+                                <li class="footer-contacts-icons-item">
+                                    <a href="#" class="footer-logo">
+                                        <img src="resources/wa.png" alt="Логотип Whatsapp" class="footer-logo-img">
+                                    </a>
+                                </li>
+                                <li class="footer-contacts-icons-item">
+                                    <a href="#" class="footer-logo">
+                                        <img src="resources/tg.png" alt="Логотип Telegram" class="footer-logo-img">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="contacts__map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2236.130267936448!2d38.0680360771893!3d55.91244157968356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ad313e872dc53%3A0xd7bf0f2ce46ff781!2z0KHQvtCy0LXRgtGB0LrQsNGPINGD0LsuLCA0Nywg0KnRkdC70LrQvtCy0L4sINCc0L7RgdC60L7QstGB0LrQsNGPINC-0LHQuy4sIDE0MTEwMw!5e0!3m2!1sru!2sru!4v1741884803987!5m2!1sru!2sru" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <a href="#" class="logo">
+                        <img src="resources/logo.png" alt="Логотип сайта" class="logo__img">
+                    </a>
+                    <div class="footer__text">
+                        <p class="footer__text-description">Магазин травяных чаев и настоек, г.Москва, ул. Советская, 47А</p>
+                    </div>
+                    <div class="footer__contacts">
+                        <p class="footer__contacts-number">📱 +7-969-228-13-37</p>
+                        <p class="footer__contacts-call">Звонок по России бесплатный</p>
+                        <ul class="footer__contacts-icons">
+                            <li class="footer-contacts-icons-item">
+                                <a href="#" class="footer-logo">
+                                    <img src="resources/vk.png" alt="Логотип Вконтакте" class="footer-logo-img">
+                                </a>
+                            </li>
+                            <li class="footer-contacts-icons-item">
+                                <a href="#" class="footer-logo">
+                                    <img src="resources/wa.png" alt="Логотип Whatsapp" class="footer-logo-img">
+                                </a>
+                            </li>
+                            <li class="footer-contacts-icons-item">
+                                <a href="#" class="footer-logo">
+                                    <img src="resources/tg.png" alt="Логотип Telegram" class="footer-logo-img">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="swiper.js"></script>
+        <script src="popup.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О компании</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <header class="header header-main">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="#" class="logo">
+                        <img src="resources/logo.png" alt="Логотип сайта" class="logo__img">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item"><a href="index.html" class="menu__list-link">Главная</a></li>
+                            <li class="menu__list-item"><a href="about-us.html" class="menu__list-link">О компании</a></li>
+                            <li class="menu__list-item"><a href="feedback.html" class="menu__list-link">Отзывы</a></li>
+                            <li class="menu__list-item"><a href="catalogue.html" class="menu__list-link">Каталог</a></li>
+                            <li class="menu__list-item"><a href="delivery.html" class="menu__list-link">Доставка и оплата</a></li>
+                            <li class="menu__list-item"><a href="contacts.html" class="menu__list-link">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+
+            <section class="section about-us">
+                <div class="container">
+                    <h2 class="section-title">О нашей компании</h2>
+                    <div class="about-us__wrapper">
+                        <img class="flex-img" src="resources/about-us.jpg" alt="О нашей компании">
+                        <p class="about-us__text">Добро пожаловать в Herbal Tea — мир натуральных травяных чаев и целебных настоек, созданных самой природой.<br><br> 
+                            Мы верим в силу растений и бережно сохраняем их полезные свойства, чтобы помочь вам заботиться о здоровье естественным способом.<br>  
+                            Наши рецептуры основаны на многовековых традициях фитотерапии и тщательно отобранных ингредиентах.<br><br>  
+                            Все травы собираются в экологически чистых регионах и проходят строгий контроль качества, чтобы каждая чашка нашего чая приносила вам гармонию и благополучие. Мы стремимся сделать заботу о здоровье доступной и приятной.<br><br>  
+                            В ассортименте Herbal Tea — чаи для укрепления иммунитета, улучшения пищеварения, расслабления и восстановления сил, а также натуральные настойки, помогающие организму справляться с повседневными нагрузками.<br><br> 
+                            Herbal Tea родилась из любви к природе и традиционному траволечению. Начав с небольших сборов для родных, мы выросли в бренд, объединяющий натуральные чаи и настойки, созданные с заботой о здоровье.<br><br> 
+                            Сохраняя традиции, мы предлагаем только лучшие травяные составы для вашего благополучия.<br> 
+                            Присоединяйтесь к нам, чтобы открыть для себя мир натурального оздоровления и насладиться настоящими дарами природы!</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="questions">
+                <div class="container">
+                    <h2 class="section-title questions__title">Остались вопросы?</h2>
+                    <p class="quesions__text">Задайте их нам!</p>
+                    <div class="questions__form">
+                        <p class="questions__form-title">Наш специалист свяжется с вами, чтобы помочь с вашим вопросом</p>
+                        <form>
+                            <label for="name">Введите ФИО</label>
+                            <input id="name" name="name" type="text" required placeholder="Иванов Иван Иванович">
+                            <label for="email">Введите email</label>
+                            <input id="email" name="email" type="email" required placeholder="ivanov12@mail.ru">
+                            <label for="tel">Введите номер телефона</label>
+                            <input id="tel" name="tel" type="tel" required placeholder="+7-999-012-34-56">
+                        </form>
+                        <button class="quesions-form__btn popup__btn">Оставить заявку</button>
+                    </div>
+                </div>
+            </section>
+
+            <div class="popup">
+                <div class="popup__content">
+                    <div class="popup__close-btn"></div>
+                    <p class="popup__heading">Спасибо за заявку!</p>
+                    <p class="popup__text">Заявка отправлена. Мы свяжемся с вами в ближайшее время.</p>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <a href="#" class="logo">
+                        <img src="resources/logo.png" alt="Логотип сайта" class="logo__img">
+                    </a>
+                    <div class="footer__text">
+                        <p class="footer__text-description">Магазин травяных чаев и настоек, г.Москва, ул. Советская, 47А</p>
+                    </div>
+                    <div class="footer__contacts">
+                        <p class="footer__contacts-number">📱 +7-969-228-13-37</p>
+                        <p class="footer__contacts-call">Звонок по России бесплатный</p>
+                        <ul class="footer__contacts-icons">
+                            <li class="footer-contacts-icons-item">
+                                <a href="#" class="footer-logo">
+                                    <img src="resources/vk.png" alt="Логотип Вконтакте" class="footer-logo-img">
+                                </a>
+                            </li>
+                            <li class="footer-contacts-icons-item">
+                                <a href="#" class="footer-logo">
+                                    <img src="resources/wa.png" alt="Логотип Whatsapp" class="footer-logo-img">
+                                </a>
+                            </li>
+                            <li class="footer-contacts-icons-item">
+                                <a href="#" class="footer-logo">
+                                    <img src="resources/tg.png" alt="Логотип Telegram" class="footer-logo-img">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="popup.js"></script>
+    </div>
+</body>
+</html>

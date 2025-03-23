@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Доставка и оплата</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <header class="header header-main">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="#" class="logo">
+                        <img src="resources/logo.png" alt="Логотип сайта" class="logo__img">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item"><a href="index.html" class="menu__list-link">Главная</a></li>
+                            <li class="menu__list-item"><a href="about-us.html" class="menu__list-link">О компании</a></li>
+                            <li class="menu__list-item"><a href="feedback.html" class="menu__list-link">Отзывы</a></li>
+                            <li class="menu__list-item"><a href="catalogue.html" class="menu__list-link">Каталог</a></li>
+                            <li class="menu__list-item"><a href="delivery.html" class="menu__list-link">Доставка и оплата</a></li>
+                            <li class="menu__list-item"><a href="contacts.html" class="menu__list-link">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+
+            <section class="delivery">
+                <div class="container">
+                    <h2 class="section-title">Доставка и оплата</h2>
+                    <div class="delivery__wrapper">
+                        <img class="flex-img" src="resources/delivery.jpg" alt="Доставка">
+                        <div class="delivery__wrapper-text flex-text">
+                            <h4>Доставка</h4>
+                            <p class="delivery__wrapper-text-description">
+                                Мы доставляем наши травяные чаи и настойки по всей стране удобными способами:<br>
+                                    • Курьерская доставка – прямо до вашей двери.<br>
+                                    • Почтовая доставка – в ближайшее отделение почты.<br>
+                                    • Сроки доставки – от 3 до 5 рабочих дней, в зависимости от региона.<br>
+                                    • Бесплатная доставка – при заказе от 1500.<br>
+                                После отправки заказа вы получите трек-номер для отслеживания.
+                            </p>
+                        </div>
+                        <div class="delivery__wrapper-text flex-text">
+                            <h4>Оплата</h4>
+                            <p class="delivery__wrapper-text-description">
+                                Мы предлагаем удобные способы оплаты:<br> 
+                                    • Банковские карты Visa, MasterCard, Мир.<br> 
+                                    • Онлайн-оплата через безопасные платежные системы.<br>  
+                                    • Оплата при получении (наличными или картой, если доступно в вашем регионе).<br> 
+                                    Все платежи защищены, а подтверждение заказа приходит на вашу электронную почту.
+                            </p>
+                        </div>
+                        <img class="flex-img" src="resources/payment.jpg" alt="Оплата">
+                    </div>
+                    <button class="section-btn popup__btn">Оформить доставку</button>
+                </div>
+            </section>
+
+            <div class="popup">
+                <div class="popup__content section-popup">
+                    <div class="popup__close-btn feedback-btn"></div>
+                    <div>
+                        <form>
+                            <label for="name">Введите ФИО</label>
+                            <input id="name" name="name" type="text" class="section-input" required placeholder="Иванов Иван Иванович">
+                            <label for="email">Введите email</label>
+                            <input id="email" name="email" type="email" class="section-input" required placeholder="ivanov12@mail.ru">
+                            <label for="tel">Введите номер телефона</label>
+                            <input id="tel" name="tel" type="tel" class="section-input" required placeholder="+7-999-012-34-56">
+                            <label for="city">Введите адрес</label>
+                            <input id="city" name="city" type="text" class="section-input" required placeholder="г. Москва, ул. Советская, 47А, п. 1, э. 1, кв. 1">
+                        </form>
+                        <button class="section-close-btn">Оформить доставку</button>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <a href="#" class="logo">
+                        <img src="resources/logo.png" alt="Логотип сайта" class="logo__img">
+                    </a>
+                    <div class="footer__text">
+                        <p class="footer__text-description">Магазин травяных чаев и настоек, г.Москва, ул. Советская, 47А</p>
+                    </div>
+                    <div class="footer__contacts">
+                        <p class="footer__contacts-number">📱 +7-969-228-13-37</p>
+                        <p class="footer__contacts-call">Звонок по России бесплатный</p>
+                        <ul class="footer__contacts-icons">
+                            <li class="footer-contacts-icons-item">
+                                <a href="#" class="footer-logo">
+                                    <img src="resources/vk.png" alt="Логотип Вконтакте" class="footer-logo-img">
+                                </a>
+                            </li>
+                            <li class="footer-contacts-icons-item">
+                                <a href="#" class="footer-logo">
+                                    <img src="resources/wa.png" alt="Логотип Whatsapp" class="footer-logo-img">
+                                </a>
+                            </li>
+                            <li class="footer-contacts-icons-item">
+                                <a href="#" class="footer-logo">
+                                    <img src="resources/tg.png" alt="Логотип Telegram" class="footer-logo-img">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="popup.js"></script>
+    </div>
+</body>
+</html>

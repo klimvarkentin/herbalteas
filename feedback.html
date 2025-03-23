@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отзывы</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header header-main">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="#" class="logo">
+                        <img src="resources/logo.png" alt="Логотип сайта" class="logo__img">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item"><a href="index.html" class="menu__list-link">Главная</a></li>
+                            <li class="menu__list-item"><a href="about-us.html" class="menu__list-link">О компании</a></li>
+                            <li class="menu__list-item"><a href="feedback.html" class="menu__list-link">Отзывы</a></li>
+                            <li class="menu__list-item"><a href="catalogue.html" class="menu__list-link">Каталог</a></li>
+                            <li class="menu__list-item"><a href="delivery.html" class="menu__list-link">Доставка и оплата</a></li>
+                            <li class="menu__list-item"><a href="contacts.html" class="menu__list-link">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+
+            <section class="feedback">
+                <div class="container">
+                    <h2 class="section-title">Отзывы наших клиентов</h2>
+                    <ul class="feedback__wrapper">
+                        <li class="feedback__item">
+                            <img class="feedback__img" src="resources/client1.jpg" alt="Фото клиента">
+                            <div class="feedback__description">
+                                <p class="feedback__text">Травяные чаи и настойки вошли в нашу жизнь и стали секретом здоровья! Чай с бергамотом помог взбодриться, а каркаде - утолить жажду. Настойка 5 трав помогла пережить осенние простуды. Теперь у нас коллекция травяных средств! Чувствуем себя здоровыми, бодрыми и в гармонии. Рекомендуем!</p>
+                                <p class="feedback__name">Андрей и Екатерина, г. Челябинск</p>
+                            </div>
+                        </li>
+                        <li class="feedback__item">
+                            <img class="feedback__img" src="resources/client2.jpg" alt="Фото клиента">
+                            <div class="feedback__description">
+                                <p class="feedback__text">Жасминовый чай - мой ежедневный ритуал! Мягкий и ароматный, идеально для расслабления. Зимой выручила настойка прополиса! Горло не болело, хотя обычно мучаюсь. Теперь травяные помощники всегда под рукой. Чувствую себя гораздо лучше, энергичнее. Советую всем!</p>
+                                <p class="feedback__name">Максим, г. Томск</p>
+                            </div>
+                        </li>
+                        <li class="feedback__item">
+                            <img class="feedback__img" src="resources/client3.png" alt="Фото клиента">
+                            <div class="feedback__description">
+                                <p class="feedback__text">Улун Те Гуань Инь - моё открытие года! Вкус невероятный, и энергии прибавляет. Осенью поддержала настойка из грецкого ореха - иммунитет укрепила, чувствую себя намного бодрее. Травяные помощники - мой секрет хорошего самочувствия. Рекомендую!</p>
+                                <p class="feedback__name">Валерия, г. Екатеринбург</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="section-btn popup__btn">Оставить отзыв</button>
+                </div>
+            </section>
+
+            <div class="popup">
+                <div class="popup__content section-popup">
+                    <div class="popup__close-btn feedback-btn"></div>
+                    <div>
+                        <form>
+                            <label for="name">Введите ФИО</label>
+                            <input id="name" name="name" type="text" class="section-input" required placeholder="Иванов Иван Иванович">
+                            <label for="city">Введите город</label>
+                            <input id="city" name="city" type="text" class="section-input" required placeholder="Москва">
+                            <label for="text">Введите текст отзыва</label>
+                            <textarea name="text" id="text" class="section-input" placeholder="Текст отзыва"></textarea>
+                        </form>
+                        <button class="section-close-btn">Оставить отзыв</button>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <a href="#" class="logo">
+                        <img src="resources/logo.png" alt="Логотип сайта" class="logo__img">
+                    </a>
+                    <div class="footer__text">
+                        <p class="footer__text-description">Магазин травяных чаев и настоек, г.Москва, ул. Советская, 47А</p>
+                    </div>
+                    <div class="footer__contacts">
+                        <p class="footer__contacts-number">📱 +7-969-228-13-37</p>
+                        <p class="footer__contacts-call">Звонок по России бесплатный</p>
+                        <ul class="footer__contacts-icons">
+                            <li class="footer-contacts-icons-item">
+                                <a href="#" class="footer-logo">
+                                    <img src="resources/vk.png" alt="Логотип Вконтакте" class="footer-logo-img">
+                                </a>
+                            </li>
+                            <li class="footer-contacts-icons-item">
+                                <a href="#" class="footer-logo">
+                                    <img src="resources/wa.png" alt="Логотип Whatsapp" class="footer-logo-img">
+                                </a>
+                            </li>
+                            <li class="footer-contacts-icons-item">
+                                <a href="#" class="footer-logo">
+                                    <img src="resources/tg.png" alt="Логотип Telegram" class="footer-logo-img">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
